@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>946</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EcheUau</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>iconos/pengi.svg</normaloff>iconos/Descargas/pengi.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="1" column="0">
+           <widget class="QTabWidget" name="tabWidget">
+            <property name="styleSheet">
+             <string notr="true">
+border-top-color: rgb(184, 184, 184);</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tab_2">
+             <attribute name="title">
+              <string>Navigator</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="1" column="0">
+               <widget class="QWidget" name="widget_4" native="true">
+                <layout class="QGridLayout" name="gridLayout_8">
+                 <item row="2" column="0">
+                  <layout class="QVBoxLayout" name="webbb_2"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_9">
+            <item row="3" column="10">
+             <widget class="QPushButton" name="pushButton">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px 1px 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/boton+.jpeg</normaloff>iconos/boton+.jpeg</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="3">
+             <widget class="QLineEdit" name="lineEdit_3">
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QPushButton" name="pu1_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/izquierda.png</normaloff>iconos/izquierda.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QPushButton" name="pu2_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px 1px 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>iconos/derecha.png</normaloff>iconos/derecha.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="5">
+             <widget class="QPushButton" name="pu3_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 30px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../iconos/stop.png</normaloff>../iconos/stop.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="7">
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string>Hazlo!</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="8">
+             <widget class="QComboBox" name="cbweb_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Google</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>DuckDuckGo</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Bing</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Wikipedia</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Youtube</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Amazon</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Diccionario RAE</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Traducir al Ingles</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Traducir al Espanol</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="3" column="9">
+             <widget class="QLineEdit" name="lineEdit_4">
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="3">
+             <widget class="QListWidget" name="segLink"/>
+            </item>
+            <item row="3" column="6">
+             <widget class="QPushButton" name="pu4_2">
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-style: outset;
+     border-width: 1px;
+     border-radius: 1px;
+     border-color: beige;
+     font: bold 14px;
+     min-width: 4em;
+     padding: 4px;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset>
+                <normaloff>../iconos/recargar.png</normaloff>../iconos/recargar.png</iconset>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>946</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>&amp;Archivo</string>
+    </property>
+    <addaction name="actionNueva_Pesta_a"/>
+    <addaction name="actionNuevaVentana"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuHistorial">
+    <property name="title">
+     <string>&amp;Historial</string>
+    </property>
+    <addaction name="actionHistorial"/>
+    <addaction name="actionSin_Historial"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>A&amp;yuda</string>
+    </property>
+    <addaction name="actionAyuda"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuHistorial"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNueva_Pesta_a">
+   <property name="text">
+    <string>Nueva Pestaña</string>
+   </property>
+  </action>
+  <action name="actionNuevaVentana">
+   <property name="text">
+    <string>Nueva ventana</string>
+   </property>
+  </action>
+  <action name="actionCopia">
+   <property name="text">
+    <string>Copia</string>
+   </property>
+  </action>
+  <action name="actionCortar">
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+  </action>
+  <action name="actionPreferencia">
+   <property name="text">
+    <string>Preferencia</string>
+   </property>
+  </action>
+  <action name="actionHistorial">
+   <property name="text">
+    <string>Historial</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionAyuda">
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+  <action name="actionSin_Historial">
+   <property name="text">
+    <string>Sin Historial</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pu1_2</tabstop>
+  <tabstop>pu2_2</tabstop>
+  <tabstop>pu3_2</tabstop>
+  <tabstop>pu4_2</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>cbweb_2</tabstop>
+  <tabstop>lineEdit_4</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lineEdit_4</sender>
+   <signal>returnPressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ok()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>799</x>
+     <y>85</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>642</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pu1_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>atras()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>635</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pu2_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>ade()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>632</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pu3_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>407</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cbweb_2</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>lineEdit_4</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>85</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>buscar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>529</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>segLink</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>encontrado()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>276</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_3</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>busDina()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>31</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_3</sender>
+   <signal>returnPressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>buscar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>237</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>123</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>nuevaPestana()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>875</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>940</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pu4_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>recar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>491</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>645</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tabWidget</sender>
+   <signal>currentChanged(QWidget*)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>camText()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ok()</slot>
+  <slot>historial()</slot>
+  <slot>atras()</slot>
+  <slot>ade()</slot>
+  <slot>stop()</slot>
+  <slot>recar()</slot>
+  <slot>buscar()</slot>
+  <slot>encontrado()</slot>
+  <slot>busDina()</slot>
+  <slot>nuevaPestana()</slot>
+  <slot>camText()</slot>
+ </slots>
+</ui>

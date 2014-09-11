@@ -1,0 +1,39 @@
+body {
+    background-color:#71B2D8;
+
+}
+
+.all {
+    position:absolute;
+    top:50px;
+    background-color:#0875B4;
+    width:80%;
+    height:80%;
+    border-style:outset;
+    border:1px solid;
+    left:10%
+}
+
+}
+.dif{
+    position:absolute;
+    width:100px;
+	height:100px;
+
+}
+img {
+	width:100px;
+	height:100px;
+}
+
+table{
+    position:relative;
+	border: 1px #70b8ff ;
+	width:80%;
+	height:70%;
+	left:15px;
+}
+
+td {
+	border: 1px #70b8ff;
+}
