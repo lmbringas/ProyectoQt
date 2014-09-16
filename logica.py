@@ -228,7 +228,7 @@ class navigator(QtGui.QMainWindow):
 class history(QtGui.QMainWindow):
     def __init__(self,navegadorActal=None, parent=None):
         super(history,self).__init__(parent)
-        self.uil=loadUi("/home/lautaro/Escritorio/.Escritorio/historial.ui",self)
+        self.uil=loadUi("historial.ui",self)
         self.lista()
         self.show()
         self.nav = navegadorActal 
